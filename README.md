@@ -9,10 +9,14 @@ $ brew install rbenv ruby-build
 $ rbenv install -l
 
 // 3.インストール
-$ rbenv install 2.3.5
+$ rbenv install 3.0.0
 
 // 4.インストールしたRubyを使用可能な状態にする
 $ rbenv rehash
 $ vi ~/.zshrc
 export PATH="$HOME/.rbenv/bin:$PATH"  
 eval "$(rbenv init - zsh)"
+
+// 5. バージョン指定
+$ rbenv local 3.0.0
+

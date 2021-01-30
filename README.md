@@ -11,6 +11,7 @@ $ brew install rbenv ruby-build
 $ rbenv install -l
 
 // 3.インストール
+
 $ rbenv install 3.0.0
 
 // 4.インストールしたRubyを使用可能な状態にする
